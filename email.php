@@ -19,8 +19,6 @@
 	<div class="passwordreset">
 		<form class="login-form" action="resetpasswordaction.php" method="post">
 			<h2 class="form-title">Reset password</h2>
-		
-			<?php include('messages.php'); ?>
 			<div class="form-group">
 				<label>Your email address</label>
 				<input type="email" name="email">
